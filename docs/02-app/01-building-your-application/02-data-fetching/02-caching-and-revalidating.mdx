@@ -61,7 +61,7 @@ Learn [how time-based revalidation works](/docs/app/building-your-application/ca
 
 > **Good to know:**
 >
-> - If you have multiple fetch requests in a statically rendered route, and each has a different revalidation frequency. The lowest time will be used for all requests.
+> - If you have multiple fetch requests in a statically rendered route, and each has a different revalidation frequency, the lowest time will be used for all requests.
 > - For dynamically rendered routes, each `fetch` request will be revalidated independently.
 > - To save server resources, we recommend setting a high revalidation time whenever possible. For instance, 1 hour instead of 1 second. If you need real-time data, consider switching to [dynamic rendering](/docs/app/building-your-application/rendering/server-components#dynamic-rendering) or client-side data fetching.
 
